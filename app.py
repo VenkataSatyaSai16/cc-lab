@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """<h1>Welcome to Flask API!</h1>
-              <p>Visit <a href='/api/hello'>/api/hello</a> to see the hello message.</p>"""
+              <a href='rgukt.ac.in'>RGUKT</a>"""
 
 @app.route("/api/hello")
 def hello():
